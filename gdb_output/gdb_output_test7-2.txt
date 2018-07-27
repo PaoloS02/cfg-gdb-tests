@@ -1,0 +1,250 @@
+exit (code=0)
+    at /home/paolo/side-channel-llvm/cfb_benchmarking/newlib/newlib/libc/stdlib/exit.c:66
+66	    __call_exitprocs (code, NULL);
+0x000102c0	66	    __call_exitprocs (code, NULL);
+0x000102c4	66	    __call_exitprocs (code, NULL);
+Loading section .text, size 0x3fc lma 0x10094
+Loading section .rodata, size 0x4 lma 0x10490
+Loading section .eh_frame, size 0x4 lma 0x11494
+Loading section .init_array, size 0x4 lma 0x11498
+Loading section .fini_array, size 0x4 lma 0x1149c
+Loading section .data, size 0x428 lma 0x114a0
+Loading section .sdata, size 0xc lma 0x118c8
+Start address 0x10094, load size 2112
+Transfer rate: 2062 KB/sec, 140 bytes/write.
+Breakpoint 1 at 0x101d8: file ./test-cases/main7-2.c, line 6.
+Breakpoint 2 at 0x102bc: file /home/paolo/side-channel-llvm/cfb_benchmarking/newlib/newlib/libc/stdlib/exit.c, line 66.
+
+Breakpoint 1, main () at ./test-cases/main7-2.c:6
+6	  f7_load_store_branches(3, 7, false);
+213581
+
+Breakpoint 2, exit (code=0)
+    at /home/paolo/side-channel-llvm/cfb_benchmarking/newlib/newlib/libc/stdlib/exit.c:66
+66	    __call_exitprocs (code, NULL);
+213709
+exit (code=0)
+    at /home/paolo/side-channel-llvm/cfb_benchmarking/newlib/newlib/libc/stdlib/exit.c:66
+66	    __call_exitprocs (code, NULL);
+0x000102c0	66	    __call_exitprocs (code, NULL);
+0x000102c4	66	    __call_exitprocs (code, NULL);
+Loading section .text, size 0x3fc lma 0x10094
+Loading section .rodata, size 0x4 lma 0x10490
+Loading section .eh_frame, size 0x4 lma 0x11494
+Loading section .init_array, size 0x4 lma 0x11498
+Loading section .fini_array, size 0x4 lma 0x1149c
+Loading section .data, size 0x428 lma 0x114a0
+Loading section .sdata, size 0xc lma 0x118c8
+Start address 0x10094, load size 2112
+Transfer rate: 1031 KB/sec, 140 bytes/write.
+Breakpoint 1 at 0x101d8: file ./test-cases/main7-2.c, line 6.
+Breakpoint 2 at 0x102bc: file /home/paolo/side-channel-llvm/cfb_benchmarking/newlib/newlib/libc/stdlib/exit.c, line 66.
+
+Breakpoint 1, main () at ./test-cases/main7-2.c:6
+6	  f7_load_store_branches(3, 7, false);
+214215
+
+Breakpoint 2, exit (code=0)
+    at /home/paolo/side-channel-llvm/cfb_benchmarking/newlib/newlib/libc/stdlib/exit.c:66
+66	    __call_exitprocs (code, NULL);
+214343
+exit (code=0)
+    at /home/paolo/side-channel-llvm/cfb_benchmarking/newlib/newlib/libc/stdlib/exit.c:66
+66	    __call_exitprocs (code, NULL);
+0x000102c0	66	    __call_exitprocs (code, NULL);
+0x000102c4	66	    __call_exitprocs (code, NULL);
+Loading section .text, size 0x3fc lma 0x10094
+Loading section .rodata, size 0x4 lma 0x10490
+Loading section .eh_frame, size 0x4 lma 0x11494
+Loading section .init_array, size 0x4 lma 0x11498
+Loading section .fini_array, size 0x4 lma 0x1149c
+Loading section .data, size 0x428 lma 0x114a0
+Loading section .sdata, size 0xc lma 0x118c8
+Start address 0x10094, load size 2112
+Transfer rate: 2062 KB/sec, 140 bytes/write.
+Breakpoint 1 at 0x101d8: file ./test-cases/main7-2.c, line 6.
+Breakpoint 2 at 0x102bc: file /home/paolo/side-channel-llvm/cfb_benchmarking/newlib/newlib/libc/stdlib/exit.c, line 66.
+
+Breakpoint 1, main () at ./test-cases/main7-2.c:6
+6	  f7_load_store_branches(3, 7, false);
+214849
+
+Breakpoint 2, exit (code=0)
+    at /home/paolo/side-channel-llvm/cfb_benchmarking/newlib/newlib/libc/stdlib/exit.c:66
+66	    __call_exitprocs (code, NULL);
+214977
+exit (code=0)
+    at /home/paolo/side-channel-llvm/cfb_benchmarking/newlib/newlib/libc/stdlib/exit.c:66
+66	    __call_exitprocs (code, NULL);
+0x000102c0	66	    __call_exitprocs (code, NULL);
+0x000102c4	66	    __call_exitprocs (code, NULL);
+Loading section .text, size 0x3fc lma 0x10094
+Loading section .rodata, size 0x4 lma 0x10490
+Loading section .eh_frame, size 0x4 lma 0x11494
+Loading section .init_array, size 0x4 lma 0x11498
+Loading section .fini_array, size 0x4 lma 0x1149c
+Loading section .data, size 0x428 lma 0x114a0
+Loading section .sdata, size 0xc lma 0x118c8
+Start address 0x10094, load size 2112
+Transfer rate: 2062 KB/sec, 140 bytes/write.
+Breakpoint 1 at 0x101d8: file ./test-cases/main7-2.c, line 6.
+Breakpoint 2 at 0x102bc: file /home/paolo/side-channel-llvm/cfb_benchmarking/newlib/newlib/libc/stdlib/exit.c, line 66.
+
+Breakpoint 1, main () at ./test-cases/main7-2.c:6
+6	  f7_load_store_branches(3, 7, false);
+215483
+
+Breakpoint 2, exit (code=0)
+    at /home/paolo/side-channel-llvm/cfb_benchmarking/newlib/newlib/libc/stdlib/exit.c:66
+66	    __call_exitprocs (code, NULL);
+215611
+exit (code=0)
+    at /home/paolo/side-channel-llvm/cfb_benchmarking/newlib/newlib/libc/stdlib/exit.c:66
+66	    __call_exitprocs (code, NULL);
+0x000102c0	66	    __call_exitprocs (code, NULL);
+0x000102c4	66	    __call_exitprocs (code, NULL);
+Loading section .text, size 0x3fc lma 0x10094
+Loading section .rodata, size 0x4 lma 0x10490
+Loading section .eh_frame, size 0x4 lma 0x11494
+Loading section .init_array, size 0x4 lma 0x11498
+Loading section .fini_array, size 0x4 lma 0x1149c
+Loading section .data, size 0x428 lma 0x114a0
+Loading section .sdata, size 0xc lma 0x118c8
+Start address 0x10094, load size 2112
+Transfer rate: 1031 KB/sec, 140 bytes/write.
+Breakpoint 1 at 0x101d8: file ./test-cases/main7-2.c, line 6.
+Breakpoint 2 at 0x102bc: file /home/paolo/side-channel-llvm/cfb_benchmarking/newlib/newlib/libc/stdlib/exit.c, line 66.
+
+Breakpoint 1, main () at ./test-cases/main7-2.c:6
+6	  f7_load_store_branches(3, 7, false);
+216117
+
+Breakpoint 2, exit (code=0)
+    at /home/paolo/side-channel-llvm/cfb_benchmarking/newlib/newlib/libc/stdlib/exit.c:66
+66	    __call_exitprocs (code, NULL);
+216245
+exit (code=0)
+    at /home/paolo/side-channel-llvm/cfb_benchmarking/newlib/newlib/libc/stdlib/exit.c:66
+66	    __call_exitprocs (code, NULL);
+0x000102c0	66	    __call_exitprocs (code, NULL);
+0x000102c4	66	    __call_exitprocs (code, NULL);
+Loading section .text, size 0x3fc lma 0x10094
+Loading section .rodata, size 0x4 lma 0x10490
+Loading section .eh_frame, size 0x4 lma 0x11494
+Loading section .init_array, size 0x4 lma 0x11498
+Loading section .fini_array, size 0x4 lma 0x1149c
+Loading section .data, size 0x428 lma 0x114a0
+Loading section .sdata, size 0xc lma 0x118c8
+Start address 0x10094, load size 2112
+Transfer rate: 1031 KB/sec, 140 bytes/write.
+Breakpoint 1 at 0x101d8: file ./test-cases/main7-2.c, line 6.
+Breakpoint 2 at 0x102bc: file /home/paolo/side-channel-llvm/cfb_benchmarking/newlib/newlib/libc/stdlib/exit.c, line 66.
+
+Breakpoint 1, main () at ./test-cases/main7-2.c:6
+6	  f7_load_store_branches(3, 7, false);
+216751
+
+Breakpoint 2, exit (code=0)
+    at /home/paolo/side-channel-llvm/cfb_benchmarking/newlib/newlib/libc/stdlib/exit.c:66
+66	    __call_exitprocs (code, NULL);
+216879
+exit (code=0)
+    at /home/paolo/side-channel-llvm/cfb_benchmarking/newlib/newlib/libc/stdlib/exit.c:66
+66	    __call_exitprocs (code, NULL);
+0x000102c0	66	    __call_exitprocs (code, NULL);
+0x000102c4	66	    __call_exitprocs (code, NULL);
+Loading section .text, size 0x3fc lma 0x10094
+Loading section .rodata, size 0x4 lma 0x10490
+Loading section .eh_frame, size 0x4 lma 0x11494
+Loading section .init_array, size 0x4 lma 0x11498
+Loading section .fini_array, size 0x4 lma 0x1149c
+Loading section .data, size 0x428 lma 0x114a0
+Loading section .sdata, size 0xc lma 0x118c8
+Start address 0x10094, load size 2112
+Transfer rate: 2062 KB/sec, 140 bytes/write.
+Breakpoint 1 at 0x101d8: file ./test-cases/main7-2.c, line 6.
+Breakpoint 2 at 0x102bc: file /home/paolo/side-channel-llvm/cfb_benchmarking/newlib/newlib/libc/stdlib/exit.c, line 66.
+
+Breakpoint 1, main () at ./test-cases/main7-2.c:6
+6	  f7_load_store_branches(3, 7, false);
+217385
+
+Breakpoint 2, exit (code=0)
+    at /home/paolo/side-channel-llvm/cfb_benchmarking/newlib/newlib/libc/stdlib/exit.c:66
+66	    __call_exitprocs (code, NULL);
+217513
+exit (code=0)
+    at /home/paolo/side-channel-llvm/cfb_benchmarking/newlib/newlib/libc/stdlib/exit.c:66
+66	    __call_exitprocs (code, NULL);
+0x000102c0	66	    __call_exitprocs (code, NULL);
+0x000102c4	66	    __call_exitprocs (code, NULL);
+Loading section .text, size 0x3fc lma 0x10094
+Loading section .rodata, size 0x4 lma 0x10490
+Loading section .eh_frame, size 0x4 lma 0x11494
+Loading section .init_array, size 0x4 lma 0x11498
+Loading section .fini_array, size 0x4 lma 0x1149c
+Loading section .data, size 0x428 lma 0x114a0
+Loading section .sdata, size 0xc lma 0x118c8
+Start address 0x10094, load size 2112
+Transfer rate: 1031 KB/sec, 140 bytes/write.
+Breakpoint 1 at 0x101d8: file ./test-cases/main7-2.c, line 6.
+Breakpoint 2 at 0x102bc: file /home/paolo/side-channel-llvm/cfb_benchmarking/newlib/newlib/libc/stdlib/exit.c, line 66.
+
+Breakpoint 1, main () at ./test-cases/main7-2.c:6
+6	  f7_load_store_branches(3, 7, false);
+218019
+
+Breakpoint 2, exit (code=0)
+    at /home/paolo/side-channel-llvm/cfb_benchmarking/newlib/newlib/libc/stdlib/exit.c:66
+66	    __call_exitprocs (code, NULL);
+218147
+exit (code=0)
+    at /home/paolo/side-channel-llvm/cfb_benchmarking/newlib/newlib/libc/stdlib/exit.c:66
+66	    __call_exitprocs (code, NULL);
+0x000102c0	66	    __call_exitprocs (code, NULL);
+0x000102c4	66	    __call_exitprocs (code, NULL);
+Loading section .text, size 0x3fc lma 0x10094
+Loading section .rodata, size 0x4 lma 0x10490
+Loading section .eh_frame, size 0x4 lma 0x11494
+Loading section .init_array, size 0x4 lma 0x11498
+Loading section .fini_array, size 0x4 lma 0x1149c
+Loading section .data, size 0x428 lma 0x114a0
+Loading section .sdata, size 0xc lma 0x118c8
+Start address 0x10094, load size 2112
+Transfer rate: 1031 KB/sec, 140 bytes/write.
+Breakpoint 1 at 0x101d8: file ./test-cases/main7-2.c, line 6.
+Breakpoint 2 at 0x102bc: file /home/paolo/side-channel-llvm/cfb_benchmarking/newlib/newlib/libc/stdlib/exit.c, line 66.
+
+Breakpoint 1, main () at ./test-cases/main7-2.c:6
+6	  f7_load_store_branches(3, 7, false);
+218653
+
+Breakpoint 2, exit (code=0)
+    at /home/paolo/side-channel-llvm/cfb_benchmarking/newlib/newlib/libc/stdlib/exit.c:66
+66	    __call_exitprocs (code, NULL);
+218781
+exit (code=0)
+    at /home/paolo/side-channel-llvm/cfb_benchmarking/newlib/newlib/libc/stdlib/exit.c:66
+66	    __call_exitprocs (code, NULL);
+0x000102c0	66	    __call_exitprocs (code, NULL);
+0x000102c4	66	    __call_exitprocs (code, NULL);
+Loading section .text, size 0x3fc lma 0x10094
+Loading section .rodata, size 0x4 lma 0x10490
+Loading section .eh_frame, size 0x4 lma 0x11494
+Loading section .init_array, size 0x4 lma 0x11498
+Loading section .fini_array, size 0x4 lma 0x1149c
+Loading section .data, size 0x428 lma 0x114a0
+Loading section .sdata, size 0xc lma 0x118c8
+Start address 0x10094, load size 2112
+Transfer rate: 2062 KB/sec, 140 bytes/write.
+Breakpoint 1 at 0x101d8: file ./test-cases/main7-2.c, line 6.
+Breakpoint 2 at 0x102bc: file /home/paolo/side-channel-llvm/cfb_benchmarking/newlib/newlib/libc/stdlib/exit.c, line 66.
+
+Breakpoint 1, main () at ./test-cases/main7-2.c:6
+6	  f7_load_store_branches(3, 7, false);
+219287
+
+Breakpoint 2, exit (code=0)
+    at /home/paolo/side-channel-llvm/cfb_benchmarking/newlib/newlib/libc/stdlib/exit.c:66
+66	    __call_exitprocs (code, NULL);
+219415

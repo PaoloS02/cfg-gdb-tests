@@ -1,0 +1,11 @@
+index = 1 2 3 4 5 6 7 8 9 10 11 12
+
+all:
+	riscv32-unknown-elf-gcc test.c -g -o test
+test1:
+	
+	for i in $(index) ; do \
+		/home/paolo/side-channel-llvm/llvm/build/bin/clang -S -emit-llvm f$(i).c -o f1.ll
+		/home/paolo/side-channel-llvm/llvm/build/bin/llc f1.ll -o f1.s
+	riscv32-unknown-elf-gcc main1-1.c f1.s -o test1-1
+	riscv32-unknown-elf-gcc main1-2.c f1.s -o test1-1

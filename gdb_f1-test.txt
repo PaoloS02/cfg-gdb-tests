@@ -1,0 +1,14 @@
+file f1-2-test
+target remote :51000
+stepi
+stepi
+load
+break main
+break exit
+jump *_start
+monitor cyclecount
+cont
+monitor cyclecount
+disconnect
+quit
+

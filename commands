@@ -1,0 +1,5 @@
+export PATH=/home/paolo/side-channel-llvm/cfb_benchmarking/install/bin/:$PATH
+
+sed -i -e 's~gdb_ouput_test~gdb_output/gdb_output_test~g' gdb_commands/gdb_test*-*.txt
+
+sed -i -e '1s~test~../test~' gdb_commands/*
