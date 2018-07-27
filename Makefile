@@ -81,8 +81,11 @@ clean:
 	rm -f f*.ll f*.s
 
 clean-all:
-	rm -f f*.ll f*.s test?-? test?-?? test??-? test??-??
+	rm -f f*.ll f*.s test?-? test?-?? test??-? test??-?? gdb_output/gdb_output_test* test_results.txt
 
 clean-output:
-	rm -f gdb_ouput_test*
+	rm -f gdb_output/gdb_output_test*
+	
+clean-results:
+	rm -f test_results.txt
 
