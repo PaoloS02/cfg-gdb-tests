@@ -3,6 +3,6 @@
 
 int main()
 {
-  f12_nesting_levels(3, 7, 4, false, true, true, true);
+  f12_nesting_levels(ARG1, ARG2, ARG3, false, true, true, true);
   return 0;
 }

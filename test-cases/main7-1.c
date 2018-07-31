@@ -3,6 +3,6 @@
 
 int main()
 {
-  f7_load_store_branches(3, 7, true);
+  f7_load_store_branches(ARG1, ARG2, true);
   return 0;
 }

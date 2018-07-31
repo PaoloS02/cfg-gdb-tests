@@ -3,6 +3,6 @@
 
 int main()
 {
-  f2_more_additions(3, 7, 4, 5, true);
+  f2_more_additions(ARG1, ARG2, ARG3, ARG4, true);
   return 0;
 }

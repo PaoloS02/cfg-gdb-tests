@@ -3,6 +3,6 @@
 
 int main()
 {
-  f3_no_else(3, 7, false);
+  f3_no_else(ARG1, ARG2, false);
   return 0;
 }

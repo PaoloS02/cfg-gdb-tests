@@ -1,0 +1,16 @@
+file test12-1-4
+set logging file gdb_output/gdb_output_test12-1.txt
+set logging on
+target remote :51000
+stepi
+stepi
+load
+break main
+break exit
+jump *_start
+monitor cyclecount
+cont
+monitor cyclecount
+disconnect
+quit
+

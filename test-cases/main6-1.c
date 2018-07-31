@@ -3,6 +3,6 @@
 
 int main()
 {
-  f6_array_load_store(3, 7, true);
+  f6_array_load_store(ARG1, ARG2, true);
   return 0;
 }

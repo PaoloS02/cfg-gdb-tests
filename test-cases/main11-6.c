@@ -3,6 +3,6 @@
 
 int main()
 {
-  f11_double_nesting(3, 7, 4, false, true, false);
+  f11_double_nesting(ARG1, ARG2, ARG3, false, true, false);
   return 0;
 }

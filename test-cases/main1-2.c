@@ -3,6 +3,6 @@
 
 int main()
 {
-  f1_simple_conditional(3, 7, false);
+  f1_simple_conditional(ARG1, ARG2, false);
   return 0;
 }

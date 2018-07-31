@@ -3,6 +3,6 @@
 
 int main()
 {
-  f8_nested_conditionals(3, 7, true, true);
+  f8_nested_conditionals(ARG1, ARG2, true, true);
   return 0;
 }

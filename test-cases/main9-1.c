@@ -3,6 +3,6 @@
 
 int main()
 {
-  f9_nested_code(3, 7, 4, true, true);
+  f9_nested_code(ARG1, ARG2, ARG3, true, true);
   return 0;
 }
